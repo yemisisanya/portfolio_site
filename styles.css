@@ -1,0 +1,138 @@
+ header{
+     border-bottom: 0.15em solid grey;
+}
+ body{
+     background-color: #f9f9f9;
+}
+ .col-md-8.name {
+     float: right;
+     padding-top: 10px;
+}
+ h2{
+     text-align: right;
+     font-size: 55px;
+     font-family: "Megrim", cursive;
+}
+ h3{
+     text-align: right;
+     font-size: 25px;
+     font-family: "Megrim";
+     color: #000;
+     font-family: "Amatic SC", cursive;
+}
+ h4{
+     text-align:center;
+     font-family: "Maitree", serif;
+     color: #000;
+     padding-right: 10px;
+}
+ .name{
+     display:block;
+}
+ .picture_image{
+     width: 100%;
+     height: 500px;
+     padding-top: 10px;
+     border-radius: 20px;
+     background-size: cover;
+}
+ #featuredWork{
+     text-align: left;
+}
+ .col-md-4.selected_work:hover {
+     filter: hue-rotate(180deg);
+     font-size: 20px;
+}
+ .col-md-4.selected_work{
+     padding: 50px;
+}
+ .image_work{
+     border-radius: 50px;
+     max-height: 300px;
+     max-width: 300px;
+
+}
+ p{
+     text-align: center;
+}
+ footer{
+     border-top: 0.15em solid grey;
+}
+ @media only screen and (max-width:1000px) {
+     .image_work{
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         width: auto;
+    }
+}
+ @media only screen and (max-width:800px) {
+     .image_work{
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         width: auto;
+    }
+     h2 {
+         text-align: center;
+         margin: auto;
+         padding-right: 200px;
+    }
+     h3{
+         text-align:center;
+         margin: auto;
+         padding-right: 200px;
+    }
+     .img-circle{
+         display: block;
+         margin: auto;
+    }
+     h2#featuredWork{
+         text-align: center;
+         padding-left: 70px;
+    }
+}
+ @media only screen and (max-width:500px) {
+     .image_work{
+         width: 100%;
+         display: block;
+    }
+     h2 {
+         text-align: center;
+         padding-right: 45px;
+    }
+     h3{
+         text-align: center;
+         margin: auto;
+         display: block;
+         padding-right: 20px;
+    }
+     .img-circle{
+         display: block;
+         margin: auto;
+    }
+     h2#featuredWork{
+         font-size: 45px;
+    }
+}
+ @media only screen and (max-width:375px) {
+     .image_work{
+         width: 100%;
+         display: block;
+    }
+     h2 {
+         text-align: center;
+         font-size: 45px;
+         padding-right: 25px;
+    }
+     h3{
+         text-align: center;
+         padding-right: 20px;
+         display: block;
+    }
+     .img-circle{
+         display: block;
+         margin: auto;
+    }
+}
+ 
